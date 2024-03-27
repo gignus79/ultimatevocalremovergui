@@ -29,7 +29,7 @@ pyrubberband==0.3.0
 pytorch_lightning==2.0.0
 PyYAML==6.0
 resampy==0.2.2
-scipy==1.9.3
+scipy==1.10.0rc1
 soundfile==0.11.0
 soundstretch==1.2
 torch==1.13.1
@@ -40,3 +40,4 @@ samplerate==0.1.0
 screeninfo==0.8.1
 PySoundFile==0.9.0.post1; sys_platform != 'windows'
 SoundFile==0.9.0; sys_platform == 'windows'
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
