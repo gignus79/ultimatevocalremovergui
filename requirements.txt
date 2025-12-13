@@ -34,9 +34,10 @@ soundfile==0.11.0
 soundstretch==1.2
 torch==1.13.1
 tqdm
-urllib3==1.26.12
+urllib3==2.6.0
 wget==3.2
 samplerate==0.1.0
 screeninfo==0.8.1
 PySoundFile==0.9.0.post1; sys_platform != 'windows'
 SoundFile==0.9.0; sys_platform == 'windows'
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
