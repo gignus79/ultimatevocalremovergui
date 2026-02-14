@@ -2,7 +2,7 @@ altgraph==0.17.3
 audioread==3.0.0
 certifi==2022.12.7
 cffi==1.15.1
-cryptography==3.4.6
+cryptography==46.0.5
 diffq==0.2.3
 Dora==0.0.3
 einops==0.6.0
@@ -40,3 +40,4 @@ samplerate==0.1.0
 screeninfo==0.8.1
 PySoundFile==0.9.0.post1; sys_platform != 'windows'
 SoundFile==0.9.0; sys_platform == 'windows'
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
